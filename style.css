@@ -1,26 +1,195 @@
-.SA{
-    background-color: blueviolet;
-    width: 1500px;
-    height: 100;
-}
-.A{
-    background-color: blueviolet;
-    width: 400px;
-    height: 500;
-}
 h1{
     position: absolute;
-    top: 20px; 
+    right: 25px;
+}
+pre{
+    position: absolute;
+    right: 50px;
 }
 h2{
     position: absolute;
-    top: 100px;
+    top: 15px;
+    color: #fff;
 }
 .ad{
     position: absolute;
-    top: 135px;
+    top: 50px;
+    color: #fff;
 }
 .res{
     position: absolute;
-    top: 170px;
+    top: 85px;
+    color: #fff;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+.hero {
+  background-color: #0040C1;
+  position: sticky;
+  height: 100px; top: 0%;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 1;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #003298;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+          animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #0051f4;
+}
+.cube:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  left: 25vw;
+  top: 30vh;
+}
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 45vw;
+  top: 20vh;
+}
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+.her {
+  background-color: #0040C1;
+  position: fixed;
+  height: 500px; width: 350px; top: 10%;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.her__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 1;
+}
+
+.cub {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #003298;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+          animation: cube 12s ease-in forwards infinite;
+}
+.cub:nth-child(2n) {
+  border-color: #0051f4;
+}
+.cub:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+.cub:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+.cub:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cub:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cub:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cub {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cub {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
 }
