@@ -1,10 +1,16 @@
+.da{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  right: 600px;
+}
 h1{
     position: absolute;
-    right: 25px;
+    right: 15px;
 }
-pre{
+.pre{
     position: absolute;
-    right: 50px;
+    right: 25px;
 }
 h2{
     position: absolute;
@@ -111,7 +117,7 @@ h2{
 .her {
   background-color: #0040C1;
   position: fixed;
-  height: 500px; width: 350px; top: 10%;
+  height: 500px; width: 350px; top: 19%;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -192,4 +198,55 @@ h2{
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
+}
+.her{
+display: block;
+width: 250px;
+height: 450px;
+border: 10px ridge lightblue;
+}
+.hero{
+display: block;
+width: 1250px;
+height: 100px;
+border: 10px ridge lightblue;
+}
+img{
+  border: 3px solid green;
+  border-radius: 10px;
+}
+.adw{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  right: 250px; top: 125px;
+}
+.add{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  right: 250px; top: 390px;
+}
+.sssr{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  right: 600px; top: 390px;
+}
+.asasa{
+  height:200px;
+  width: 300px;
+  position: absolute;
+  right: 600px; top: 650px;
+}
+.ads{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  right: 250px; top: 650px;
+}
+р2{
+  position: absolute;
+  top: 125px; right: 600px;
+  color: green;
 }
