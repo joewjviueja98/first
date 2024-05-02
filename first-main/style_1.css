@@ -92,7 +92,6 @@
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
-
 .her__title {
   color: #fff;
   position: absolute;
@@ -184,8 +183,8 @@ border: 10px ridge lightblue;
 }
 pre{
   position: absolute;
-  right: 180px;
+  right: 1200px;
 }
 a{
-  color: #fff;
+  color: white;
 }

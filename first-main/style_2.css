@@ -2,7 +2,7 @@
 .hero {
   background-color: #0040C1;
   position: sticky;
-  height: 100px; top: 0%;
+  height: 100px; top: 0px;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -181,4 +181,20 @@ display: block;
 width: 1250px;
 height: 100px;
 border: 10px ridge lightblue;
+}
+a{
+  color: white;
+}
+.ws{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 300px;
+}
+.et{
+  position: absolute;
+  left: 300px; top: 630px;
+  color: black;
 }
