@@ -2,42 +2,36 @@
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 600px; top: 135px;
+  right: 580px; top: 135px;
 }
 h1{
-  position: absolute;
+    position: absolute;
     right: 15px;
 }
 .pre{
     position: absolute;
     right: 25px;
 }
-
-ew{
+h2{
     position: absolute;
-    top: 20px;
+    top: 15px;
     color: #fff;
 }
 .ad{
     position: absolute;
-    top: 80px;
+    top: 50px;
     color: #fff;
 }
 .res{
     position: absolute;
-    top: 120px;
+    top: 85px;
     color: #fff;
-}
-asdd{
-  position: absolute;
-  top: 100px;
-  color: #fff;
 }
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
   background-color: #0040C1;
   position: sticky;
-  height: 100px; top: 0%;
+  height: 100px; top: 0%; width: 330px;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -225,33 +219,46 @@ img{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 250px; top: 135px;
+  right: 260px; top: 135px;
 }
 .add{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 250px; top: 390px;
+  right: 260px; top: 390px;
 }
 .sssr{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 600px; top: 390px;
+  right: 580px; top: 390px;
 }
 .asasa{
   height:200px;
   width: 300px;
   position: absolute;
-  right: 600px; top: 650px;
+  right: 900; top: 390px;
 }
 .ads{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 250px; top: 650px;
+  right: 900; top: 135px;
+}
+р2{
+  position: absolute;
+  top: 125px; right: 600px;
+  color: green;
 }
 eq{
   position: absolute;
   right: 600px; top: 150px;
+}
+.ep{
+  position: absolute;
+  top: 120px;
+}
+.wp{
+  position: absolute;
+  top: 145px;
 }

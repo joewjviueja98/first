@@ -2,7 +2,7 @@
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 580px; top: 135px;
+  right: 600px; top: 135px;
 }
 h1{
     position: absolute;
@@ -31,7 +31,7 @@ h2{
 .hero {
   background-color: #0040C1;
   position: sticky;
-  height: 100px; top: 0%; width: 330px;
+  height: 100px; top: 0%;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -219,31 +219,31 @@ img{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 260px; top: 135px;
+  right: 250px; top: 135px;
 }
 .add{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 260px; top: 390px;
+  right: 250px; top: 390px;
 }
 .sssr{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 580px; top: 390px;
+  right: 600px; top: 390px;
 }
 .asasa{
   height:200px;
   width: 300px;
   position: absolute;
-  right: 900; top: 390px;
+  right: 600px; top: 650px;
 }
 .ads{
   height: 200px;
   width: 300px;
   position: absolute;
-  right: 900; top: 135px;
+  right: 250px; top: 650px;
 }
 р2{
   position: absolute;
@@ -253,12 +253,4 @@ img{
 eq{
   position: absolute;
   right: 600px; top: 150px;
-}
-.ep{
-  position: absolute;
-  top: 120px;
-}
-.wp{
-  position: absolute;
-  top: 145px;
 }

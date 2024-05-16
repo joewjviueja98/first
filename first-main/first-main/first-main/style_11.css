@@ -184,8 +184,6 @@ border: 10px ridge lightblue;
 a{
   color: white;
 }
-
 pre{
-  position: absolute;
-  right: 150px;
+   transform: translate(280px);
 }
