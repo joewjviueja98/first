@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
   background-color: #0040C1;
-  position: sticky;
-  height: 100px; top: 0%;
+  position: absolute;
+  height: 50px; width: 1890px; top: 0%;
+  border-radius: 20px 20px 150px 150px;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -85,89 +86,6 @@
   }
 }
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
-.her {
-  background-color: #0040C1;
-  position: fixed;
-  height: 500px; width: 350px; top: 120px;
-  overflow: hidden;
-  font-family: "Montserrat", sans-serif;
-}
-.her__title {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  z-index: 1;
-}
-
-.cub {
-  position: absolute;
-  top: 80vh;
-  left: 45vw;
-  width: 10px;
-  height: 10px;
-  border: solid 1px #003298;
-  transform-origin: top left;
-  transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 12s ease-in forwards infinite;
-          animation: cube 12s ease-in forwards infinite;
-}
-.cub:nth-child(2n) {
-  border-color: #0051f4;
-}
-.cub:nth-child(2) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  left: 25vw;
-  top: 40vh;
-}
-.cub:nth-child(3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  left: 75vw;
-  top: 50vh;
-}
-.cub:nth-child(4) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-  left: 90vw;
-  top: 10vh;
-}
-.cub:nth-child(5) {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  left: 10vw;
-  top: 85vh;
-}
-.cub:nth-child(6) {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
-  left: 50vw;
-  top: 10vh;
-}
-
-@-webkit-keyframes cub {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
-}
-
-@keyframes cub {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
 }
 .her{
 display: block;
@@ -175,12 +93,7 @@ width: 250px;
 height: 450px;
 border: 10px ridge lightblue;
 }
-.hero{
-display: block;
-width: 1250px;
-height: 100px;
-border: 10px ridge lightblue;
-}
+
 a{
   color: white;
 }
@@ -188,4 +101,35 @@ a{
 pre{
   position: absolute;
   right: 150px;
+}
+  ere{
+  color: black;
+}
+.class{
+  position: absolute;
+  top: -10px; left: 500px;
+}
+.ewe{
+  width: 1890px;
+}
+.ter{
+  width: 450px; height: 300px;
+  position: absolute;
+  right: 500px;
+}
+.x{
+  position: absolute;
+  left: 400px;
+}
+.wet{
+  position: absolute;
+  right: 480px; top: 1000px;
+}
+.tea{
+  width: 450px; height: 300px;
+  position: absolute;
+  right: 1050px; top:1000px;
+}
+.etr{
+  height: ;
 }
